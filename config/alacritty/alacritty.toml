@@ -1,0 +1,11 @@
+[general]
+import = ["/home/cluser/.config/alacritty/themes/tokyonight.toml"]
+
+[window]
+decorations = "none"
+startup_mode = "Maximized"
+
+[window.padding]
+x = 8
+y = 8
+
