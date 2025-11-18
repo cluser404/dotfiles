@@ -3,7 +3,7 @@ import = ["/home/cluser/.config/alacritty/themes/tokyonight.toml"]
 
 [window]
 decorations = "none"
-startup_mode = "Maximized"
+startup_mode = "Fullscreen"
 
 [window.padding]
 x = 8
