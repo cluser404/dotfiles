@@ -1,3 +1,6 @@
+[env]
+TERM = "xterm-direct"
+
 [general]
 import = ["/home/cluser/.config/alacritty/themes/tokyonight.toml"]
 
