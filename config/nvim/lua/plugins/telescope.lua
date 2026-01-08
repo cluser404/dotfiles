@@ -4,7 +4,7 @@ return {
 	dependencies = { 'nvim-lua/plenary.nvim' },
 	opts = {
 		defaults = {
-			file_ignore_patterns = {"venv/", ".venv/", "__pycache__/"}
+			file_ignore_patterns = {"venv/", ".venv/", "__pycache__/", "node_modules/", "%.git", "dist/"}
 		}
 	}
 }
