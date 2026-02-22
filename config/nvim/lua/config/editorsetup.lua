@@ -7,3 +7,4 @@ vim.opt.smartindent = true
 vim.cmd[[colorscheme tokyonight]]
 
 vim.o.termguicolors = true
+

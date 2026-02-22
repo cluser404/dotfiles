@@ -10,6 +10,7 @@ return {{
 			"python",
 			"javascript",
 			"typescript",
+			"vue",
 			"bash",
 			"html",
 			"css",
