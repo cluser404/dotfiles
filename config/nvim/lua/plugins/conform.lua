@@ -8,6 +8,10 @@ return {
 			typescriptreact = { "prettier" },
 			json = { "prettier" },
 			vue = { "prettier" },
+			cpp = { "clang-format" },
+			c = { "clang-format" },
+			h = { "clang-format" },
+			hpp = { "clang-format" },
 		}
 	},
 	keys = {
