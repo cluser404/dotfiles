@@ -6,16 +6,22 @@ return {
 	},
 	config = function()
 		require("mason").setup {
-			ensure_installed = {
-				"prettier"
-			}
+			ensure_installed = {}
 		}
 
 		require("mason-lspconfig").setup {
 			ensure_installed = {
-				"vtsls",
-				"vue_ls",
+				"clangd",
+				"cssls",
+				"djlsp",
 				"eslint",
+				"prettier",
+				"html",
+				"marksman",
+				"pyright",
+				"svelte",
+				"tailwindcss",
+				"vtsls",
 			},
 			automatic_installation = true,
 			automatic_enable = true,

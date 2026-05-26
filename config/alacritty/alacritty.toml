@@ -1,6 +1,10 @@
 [env]
 TERM = "xterm-direct"
 
+[terminal.shell]
+program = "/usr/bin/zsh"
+args = ["-lc", "tmux new-session -A -s main"]
+
 [general]
 import = ["/home/cluser/.config/alacritty/themes/tokyonight.toml"]
 
@@ -9,6 +13,33 @@ decorations = "none"
 startup_mode = "Fullscreen"
 
 [window.padding]
-x = 8
-y = 8
+x = 0
+y = 0
+
+[font]
+size = 14
+
+[font.normal]
+family = "JetBrainsMono NF"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono NF"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono NF"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono NF"
+style = "Bold Italic"
+
+[font.offset]
+x = 0
+y = 0
+
+[font.glyph_offset]
+x = 0
+y = 0
 
